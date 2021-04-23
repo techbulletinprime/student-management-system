@@ -37,15 +37,15 @@ padding : 50px 0;
 	<div class="row">
 		<div class="col-md-4 login-sec">
 		    <h2 class="text-center">Login Now</h2>
-		    <form class="login-form">
+		    <form class="login-form" action="./studentlogin" method="post">
   <div class="form-group">
     <label for="exampleInputEmail1" class="text-uppercase">Username</label>
-    <input type="text" class="form-control" placeholder="">
+    <input type="text" class="form-control" name="userName" placeholder="">
     
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1" class="text-uppercase">Password</label>
-    <input type="password" class="form-control" placeholder="">
+    <input type="password" class="form-control" name="password" placeholder="">
   </div>
   
   

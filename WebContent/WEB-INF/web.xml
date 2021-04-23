@@ -9,15 +9,21 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-  
   <servlet>
     <servlet-name>studentController</servlet-name>
     <servlet-class>com.studentmanagement.controllers.StudentRegstrationController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>studentLoginController</servlet-name>
+    <servlet-class>com.studentmanagement.controllers.StudentLoginController</servlet-class>
   </servlet>
  
   <servlet-mapping>
     <servlet-name>studentController</servlet-name>
     <url-pattern>/student</url-pattern>
   </servlet-mapping>
-  
+    <servlet-mapping>
+    <servlet-name>studentLoginController</servlet-name>
+    <url-pattern>/studentlogin</url-pattern>
+  </servlet-mapping>
 </web-app>
